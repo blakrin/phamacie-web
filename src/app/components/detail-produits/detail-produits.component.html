@@ -1,0 +1,30 @@
+<h1 mat-dialog-title> Detail </h1>
+<div mat-dialog-content>
+
+  <mat-form-field>
+    <mat-label>Code</mat-label>
+    <input matInput [(ngModel)]="data.code" readonly>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput [(ngModel)]="data.name" readonly>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Prix</mat-label>
+    <input matInput [(ngModel)]="data.price" readonly>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Date</mat-label>
+    <input matInput [(ngModel)]="data.datexpiratedDatee" readonly>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()"> Ok</button>
+</div>
+<!-- created_at: string;
+  number: string;
+  state: string;
+  title: string; -->
